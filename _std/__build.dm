@@ -42,7 +42,7 @@ o+`        `-` ``..-:yooos-..----------..`
 //#define I_DONT_WANNA_WAIT_FOR_THIS_PREGAME_SHIT_JUST_GO // Automatically ready up and start the game ASAP. No input required.
 
 //////--- CONVENIENCE OPTIONS FOR TESTING ETC ---//
-//#define DEBUG_EVERYONE_GETS_CAPTAIN_ID // all IDs are captain rank, kept separate from below options to avoid disrupting access-related tests
+#define DEBUG_EVERYONE_GETS_CAPTAIN_ID // all IDs are captain rank, kept separate from below options to avoid disrupting access-related tests
 //#define NO_COOLDOWNS // disables all /datum/targetable cooldowns
 //#define BONUS_POINTS // gives a bunch of starting points to various abilities/uplinks/weapon vendors
 //#define SHUT_UP_AND_GIVE_ME_MEDAL_STUFF // causes has_medal to always return true - good for testing medal rewards etc.
@@ -64,8 +64,8 @@ o+`        `-` ``..-:yooos-..----------..`
 //#define I_AM_HACKERMAN // Lets you varedit things you normally couldn't (admin holders, server config)
 //#define CHECK_MORE_RUNTIMES // Enables checking for some additional errors which might be too costly on live server
 //#define QUICK_MOB_DELETION // Enables deleting mobs with build mode right click on obj place mode
-//#define SHUT_UP_ABOUT_MY_PAY // disables PDA messages from the wagesystem
-//#define FUCK_OFF_WITH_THE_MAIL // Disables random crew mail system
+#define SHUT_UP_ABOUT_MY_PAY // disables PDA messages from the wagesystem
+#define FUCK_OFF_WITH_THE_MAIL // Disables random crew mail system
 
 //#define Z_LOG_ENABLE 1  // Enable additional world.log logging
 
@@ -135,7 +135,7 @@ o+`        `-` ``..-:yooos-..----------..`
 //#define MAP_OVERRIDE_KONDARU      // Kondaru Station, by Kubius
 //#define MAP_OVERRIDE_ATLAS        // NCS Atlas, by Gannets (and Kubius)
 //#define MAP_OVERRIDE_CLARION      // NSS Clarion (Used to be Destiny's Alt), by Dionsu and a69andahalf.
-//#define MAP_OVERRIDE_OSHAN        // Oshan Laboratory, Abzu, by committee
+#define MAP_OVERRIDE_OSHAN        // Oshan Laboratory, Abzu, by committee
 //#define MAP_OVERRIDE_NADIR        // Nadir Extraction Site by Kubius
 
 //-------Discontinued or gimmick maps:

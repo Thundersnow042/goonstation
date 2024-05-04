@@ -37593,6 +37593,9 @@
 /obj/landmark/spawner/artifact,
 /turf/simulated/floor/grime,
 /area/iss)
+"jSO" = (
+/turf/unsimulated/floor/waves,
+/area/space)
 "jTG" = (
 /obj/machinery/door/airlock/pyro/maintenance/alt,
 /obj/mapping_helper/firedoor_spawn,
@@ -83991,12 +83994,12 @@ iVF
 ciQ
 ciT
 ciZ
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
+jSO
+jSO
+jSO
+jSO
+jSO
+jSO
 bhi
 cxr
 fJg
@@ -84293,12 +84296,12 @@ ciQ
 ciQ
 mjo
 txh
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
+jSO
+jSO
+jSO
+jSO
+jSO
+jSO
 bhi
 lGL
 fJg
@@ -84595,12 +84598,12 @@ pzz
 ciQ
 ciB
 ciZ
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
+jSO
+jSO
+jSO
+jSO
+jSO
+jSO
 bhi
 hNb
 fJg

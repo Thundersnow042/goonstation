@@ -1023,6 +1023,19 @@ TYPEINFO(/turf/unsimulated/floor/grass)
 	icon_state = "glasstr_purple"
 
 /////////////////////////////////////////
+//Future Thunder - Waves here
+/turf/unsimulated/floor/waves
+	name = "waves"
+	desc = "If only you knew how to swim."
+	icon = 'icons/turf/water.dmi'
+	icon_state = "waves"
+	allows_vehicles = 1
+	step_material = "step_outdoors"
+	step_priority = STEP_PRIORITY_MED
+	can_burn = FALSE
+	can_break = FALSE
+
+/////////////////////////////////////////
 
 /turf/unsimulated/floor/shuttlebay
 	name = "shuttle bay plating"

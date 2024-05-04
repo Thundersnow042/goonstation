@@ -742,7 +742,7 @@ var/global/in_replace_with = 0
 			return new_turf
 			// New() replaced the turf with something else, its ReplaceWith handled everything for us already (otherwise we'd screw up lighting)
 
-	else switch(what)
+	else switch(what) //Future Thunder - this seems important for purposes of putting holes in the station properly
 		if ("Ocean")
 			new_turf = new /turf/space/fluid(src)
 		if ("Floor")
