@@ -492,7 +492,7 @@ ABSTRACT_TYPE(/obj/deployable_turret)
 		..()
 
 	is_friend(var/mob/living/C)
-		return istype(C.get_id(), /obj/item/card/id/syndicate) || (C.faction && C.faction == FACTION_SYNDICATE) //dumb lazy
+		return istype(C.get_id(), /obj/item/card/id/syndicate) || (C.faction && (FACTION_SYNDICATE in C.faction)) //dumb lazy
 
 /obj/deployable_turret/syndicate/active
 	anchored = ANCHORED
@@ -574,8 +574,10 @@ ABSTRACT_TYPE(/obj/deployable_turret)
 	var/turf/user_turf = null
 
 	castcheck(var/mob/M)
-		if (M.client && M.client.holder)
+		if (M.client && M.client.holder) //???
 			return TRUE
+		else
+			return ..()
 
 	handleCast(var/atom/target)
 
